@@ -1,0 +1,28 @@
+site_name: Maple Documentation
+theme: 
+  name: 'material'
+  features:
+    - tabs
+    - instant
+  palette:
+    scheme: preference
+    primary: 'Blue'
+    accent: 'Cyan'
+  font:
+    text: 'Poppins'
+    code: 'Fira Mono'
+  
+repo_name: 'Maple Docs'
+repo_url: 'https://github.com/Maple-Discord-Bot/Maple-Docs'
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.keys
+  - attr_list
+  - pymdownx.betterem:
+      smart_enable: all
+
+copyright: 'Copyright &copy; 2020 - 2021 Maple 🍁'
